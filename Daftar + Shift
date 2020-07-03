@@ -38,7 +38,7 @@ echo $white"thanks To : Blackhat Hacker Indonesia"
 
 =================================================
 echo  $yellow" 01) SHIFT AKTIVITAS"
-echo  $yellow" 02) DAFTAR AHS TEAM"
+echo  $yellow" 02) Daftar Masuk Team AHS"
 echo  $yellow" 03) RULES"
 echo  $yellow" 04) Top Up Ilegal FF"
 echo  $yellow" 05) Webdav"
@@ -60,29 +60,44 @@ then
 clear
 echo  $red" SHIFT AKTIVITAS "
 sleep 1
-SHIFT MALAM/JAM MALAM
-1. A SETENGAH 12
-2. 
-DST 
-SHIFT PAGI/JAM PAGI
-1. 
-2.
-DST
-echo  $red" T E R I N S T A L L "
+echo "\e[1;36mSHIFT MALAM/JAM MALAM
+sleep 1
+echo "\e[1;36m1. A SETENGAH 12
+sleep 1
+echo "\e[1;36m2. 
+sleep 1
+echo "\e[1;36mDST 
+sleep 1
+echo "\e[1;36mSHIFT PAGI/JAM PAGI
+sleep 1
+echo "\e[1;36m1. 
+sleep 1
+echo "\e[1;36m2.
+sleep 1
+echo "\e[1;36mDST
+sleep 5
+echo "\e[1;36m Selamat Bertugas :)
+sleep 8
 exit
 fi
 
 if [ $bro = 2 ] || [ $bro = 02 ]
 then
 clear
-echo  $red" Installing D-Tect "
+echo  $red" Daftar Masuk Team AHS "
 sleep 1
-apt-get update && apt-get upgrade
-apt-get install git
-apt-get install python2
-git clone 
-https://github.com/shawarkhanethicalhacker/D-TECT
-echo  $red" T E R I N S T A L L "
+read-p " :'nama anggota baru;
+sleep 1
+read-p " :'alamat;
+sleep 1
+read-p " :'no tlp;
+sleep 1
+read-p " :'email;
+sleep 1
+read-p " :'nama samaran;
+sleep 1
+echo  $red" Jangan lupa di screenshoot pendaftaranya. Selamat bergabung "
+sleep 8
 exit
 fi
 
