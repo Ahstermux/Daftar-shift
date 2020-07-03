@@ -58,45 +58,35 @@ read -p "[AHS TEAM]> " bro;
 if [ $bro = 1 ] || [ $bro = 01 ]
 then
 clear
-echo  $red" SHIFT AKTIVITAS "
+echo  $cyan" SHIFT MALAM/JAM MALAM "
 sleep 1
-echo "\e[1;36mSHIFT MALAM/JAM MALAM
+echo  $cyan" 01: A SETENGAH 12"
 sleep 1
-echo "\e[1;36m1. A SETENGAH 12
+echo  $cyan" 02: ..."
 sleep 1
-echo "\e[1;36m2. 
+echo  $cyan" DST"
 sleep 1
-echo "\e[1;36mDST 
+echo  $cyan" SHIFT PAGI/JAM PAGI "
 sleep 1
-echo "\e[1;36mSHIFT PAGI/JAM PAGI
+echo  $cyan" 01:..."
 sleep 1
-echo "\e[1;36m1. 
+echo  $cyan" 02:...."
 sleep 1
-echo "\e[1;36m2.
-sleep 1
-echo "\e[1;36mDST
-sleep 5
-echo "\e[1;36m Selamat Bertugas :)
-sleep 8
+echo  $cyan" DST "
 exit
 fi
 
 if [ $bro = 2 ] || [ $bro = 02 ]
 then
 clear
-echo  $red" Daftar Masuk Team AHS "
+read -p "[NAMA ANGGOTA BARU]> " bro;
 sleep 1
-read-p " :'nama anggota baru;
+read -p "[ALAMAT]> " bro;
 sleep 1
-read-p " :'alamat;
+read -p "[NO WA/TLP]> " bro;
 sleep 1
-read-p " :'no tlp;
-sleep 1
-read-p " :'email;
-sleep 1
-read-p " :'nama samaran;
-sleep 1
-echo  $red" Jangan lupa di screenshoot pendaftaranya. Selamat bergabung "
+read -p "[EMAIL]> " bro;
+echo  $cyan" Jangan lupa di screenshoot pendaftaranya. Selamat bergabung "
 sleep 8
 exit
 fi
