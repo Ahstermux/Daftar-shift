@@ -37,9 +37,9 @@ echo $white"thanks To : JATIM BLACK HAT"
 echo $white"thanks To : Blackhat Hacker Indonesia"
 
 =================================================
-echo  $yellow" 01) Red Hawk"
-echo  $yellow" 02) D-Tect"
-echo  $yellow" 03) Top Up Ilegal ML"
+echo  $yellow" 01) SHIFT AKTIVITAS"
+echo  $yellow" 02) DAFTAR AHS TEAM"
+echo  $yellow" 03) RULES"
 echo  $yellow" 04) Top Up Ilegal FF"
 echo  $yellow" 05) Webdav"
 echo  $yellow" 06) Metasploit"
@@ -58,13 +58,16 @@ read -p "[AHS TEAM]> " bro;
 if [ $bro = 1 ] || [ $bro = 01 ]
 then
 clear
-echo  $red" Installing Red Hawk "
+echo  $red" SHIFT AKTIVITAS "
 sleep 1
-apt update && apt upgrade
-apt install php
-apt install git
-git clone 
-https://github.com/Tuhinshubhra/RED_HAWK
+SHIFT MALAM/JAM MALAM
+1. A SETENGAH 12
+2. 
+DST 
+SHIFT PAGI/JAM PAGI
+1. 
+2.
+DST
 echo  $red" T E R I N S T A L L "
 exit
 fi
